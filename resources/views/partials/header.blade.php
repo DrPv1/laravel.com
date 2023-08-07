@@ -1,5 +1,4 @@
-<header
-    x-trap.inert.noscroll="navIsOpen"
+<header x-trap.inert.noscroll="navIsOpen"
     class="main-header relative z-50 text-gray-700"
     @keydown.window.escape="navIsOpen = false"
     @click.away="navIsOpen = false"
